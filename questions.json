@@ -1,0 +1,374 @@
+{
+    "HTML": [
+      {
+        "question": "What does HTML stand for?",
+        "options": ["Hyper Text Makeup Language", "Hyperlink and Text Markup Language", "Hyper Text Markup Language", "Hyper Transfer Markup Language"],
+        "correct_answer": 2
+      },
+      {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": ["<link>", "<href>", "<a>", "<hyperlink>"],
+        "correct_answer": 2
+      },
+      {
+        "question": "Which HTML element is used to define the structure of an HTML document, such as headings and paragraphs?",
+        "options": ["<body>", "<structure>", "<content>", "<div>"],
+        "correct_answer": 0
+      },
+      {
+        "question": "What does the HTML tag <br> represent?",
+        "options": ["A line break", "A bold text", "A horizontal rule", "A paragraph"],
+        "correct_answer": 0
+      },
+      {
+        "question": "Which HTML element is used to define a list item in an ordered list?",
+        "options": ["<ul>", "<li>", "<ol>", "<dl>"],
+        "correct_answer": 1
+      },
+      {
+        "question": "What does the HTML tag <img> represent?",
+        "options": ["A link to another webpage", "A clickable button", "An image", "A video"],
+        "correct_answer": 2
+      },
+      {
+        "question": "Which HTML element is used for creating a form in a web page?",
+        "options": ["<input>", "<form>", "<button>", "<label>"],
+        "correct_answer": 1
+      },
+      {
+        "question": "What is the purpose of the HTML <meta> tag?",
+        "options": ["To define a section of content", "To specify the character encoding", "To create a hyperlink", "To add a background color"],
+        "correct_answer": 1
+      },
+      {
+        "question": "Which HTML tag is used for defining the structure of a table?",
+        "options": ["<table>", "<tr>", "<td>", "<th>"],
+        "correct_answer": 0
+      },
+      {
+        "question": "In HTML, which tag is used for creating a horizontal line?",
+        "options": ["<line>", "<hr>", "<break>", "<linebreak>"],
+        "correct_answer": 1
+      },
+      {
+        "question": "What does the HTML tag <em> represent?",
+        "options": ["An emphasized text", "An image", "A hyperlink", "A video"],
+        "correct_answer": 0
+      },
+      {
+        "question": "Which HTML element is used for adding a comment that is not visible on the web page?",
+        "options": ["<!-- -->", "<comment>", "<hidden>", "<notvisible>"],
+        "correct_answer": 0
+      }
+    ],
+    "CSS": [
+      {
+        "question": "What does CSS stand for?",
+        "options": ["Cascading Style Sheet", "Creative Styling System", "Computer Style Sheet", "Colorful Styling Sheet"],
+        "correct_answer": 0
+      },
+      {
+        "question": "Which CSS property is used to change the text color of an element?",
+        "options": ["text-color", "font-color", "color", "text-style"],
+        "correct_answer": 2
+      },
+      {
+        "question": "How can you include an external CSS file in an HTML document?",
+        "options": ["<link href='style.css' rel='stylesheet'>", "<style src='style.css'>", "<css>style.css</css>", "<include>style.css</include>"],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the purpose of the CSS property 'margin'?",
+        "options": ["To set the background color", "To create space outside an element", "To add a border to an element", "To change the font size"],
+        "correct_answer": 1
+      },
+      {
+        "question": "Which CSS property is used to make text bold?",
+        "options": ["font-weight", "text-bold", "bold-text", "font-style"],
+        "correct_answer": 0
+      },
+      {
+        "question": "What does the CSS property 'float' do?",
+        "options": ["Floats the text to the top", "Moves the element to the center", "Floats the element to the left or right", "Changes the text color"],
+        "correct_answer": 2
+      },
+      {
+        "question": "How can you select all <p> elements with class 'highlight' in CSS?",
+        "options": [".highlight {p}", "p.highlight", "#highlight > p", ".highlight:p"],
+        "correct_answer": 1
+      },
+      {
+        "question": "Which CSS property is used to control the spacing between lines of text?",
+        "options": ["line-spacing", "text-spacing", "letter-spacing", "line-height"],
+        "correct_answer": 3
+      },
+      {
+        "question": "What is the purpose of the CSS property 'background-color'?",
+        "options": ["To add a background image", "To change the text color", "To set the background color", "To change the font size"],
+        "correct_answer": 2
+      },
+      {
+        "question": "What does the CSS property 'position: relative' do?",
+        "options": ["Fixes the element in place", "Moves the element relative to its normal position", "Hides the element", "Changes the font style"],
+        "correct_answer": 1
+      },
+      {
+        "question": "Which CSS property is used for adding a shadow to an element?",
+        "options": ["box-shadow", "element-shadow", "shadow", "add-shadow"],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the purpose of the CSS property 'opacity'?",
+        "options": ["To control the element's transparency", "To change the font color", "To hide the element", "To make the element smaller"],
+        "correct_answer": 0
+      }
+    ],
+    "JavaScript": [
+      {
+        "question": "What is JavaScript primarily used for?",
+        "options": ["Styling web pages", "Creating web pages", "Adding interactivity to web pages", "Structuring web pages"],
+        "correct_answer": 2
+      },
+      {
+        "question": "Which keyword is used to declare a variable in JavaScript?",
+        "options": ["var", "let", "const", "variable"],
+        "correct_answer": 0
+      },
+      {
+        "question": "What does the 'DOM' stand for in JavaScript?",
+        "options": ["Document Object Model", "Data Object Model", "Dynamic Object Model", "Document Order Model"],
+        "correct_answer": 0
+      },
+      {
+        "question": "How do you write a single-line comment in JavaScript?",
+        "options": ["/* This is a comment */", "// This is a comment", "'' This is a comment", "## This is a comment"],
+        "correct_answer": 1
+      },
+      {
+        "question": "What is the purpose of the 'if' statement in JavaScript?",
+        "options": ["To repeat a block of code", "To define a function", "To conditionally execute code", "To create a loop"],
+        "correct_answer": 2
+      },
+      {
+        "question": "Which operator is used to compare two values for equality in JavaScript?",
+        "options": ["===", "==", "=", "!="],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the purpose of the 'function' keyword in JavaScript?",
+        "options": ["To declare a variable", "To create a loop", "To define a function", "To style elements"],
+        "correct_answer": 2
+      },
+      {
+        "question": "Which method is used to add an element to the end of an array in JavaScript?",
+        "options": [".push()", ".pop()", ".add()", ".append()"],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the result of '5 + '5' in JavaScript?",
+        "options": ["10", "55", "Error", "55.0"],
+        "correct_answer": 1
+      },
+      {
+        "question": "What does the 'setTimeout' function do in JavaScript?",
+        "options": ["Adds a timer to the webpage", "Sets the font size of an element", "Delays the execution of a function", "Creates an alert message"],
+        "correct_answer": 2
+      },
+      {
+        "question": "Which JavaScript method is used to change the content of an HTML element?",
+        "options": [".alter()", ".change()", ".innerHTML", ".replace()"],
+        "correct_answer": 2
+      },
+      {
+        "question": "What is the purpose of the 'return' statement in JavaScript?",
+        "options": ["To exit a loop", "To add a comment", "To define a function", "To specify the value to be returned from a function"],
+        "correct_answer": 3
+      }
+    ],
+    "Bootstrap": [
+      {
+        "question": "What does Bootstrap primarily provide for web developers?",
+        "options": ["A JavaScript framework", "A responsive grid system", "A database management system", "A server-side scripting language"],
+        "correct_answer": 1
+      },
+      {
+        "question": "Which Bootstrap class is used to create a responsive navigation bar?",
+        "options": [".navbar-fixed", ".nav", ".navbar", ".navigation-bar"],
+        "correct_answer": 2
+      },
+      {
+        "question": "What does the Bootstrap class '.container' do?",
+        "options": ["Adds a background image", "Centers content and sets a max-width", "Adds a border to an element", "Changes the font style"],
+        "correct_answer": 1
+      },
+      {
+        "question": "Which Bootstrap component is used to create a carousel or image slider?",
+        "options": [".slider", ".carousel", ".image-slider", ".gallery"],
+        "correct_answer": 1
+      },
+      {
+        "question": "In Bootstrap, what does the class '.btn-primary' represent?",
+        "options": ["A primary navigation link", "A primary button style", "A primary form input", "A primary image"],
+        "correct_answer": 1
+      },
+      {
+        "question": "Which Bootstrap utility class is used for creating responsive padding?",
+        "options": [".padding", ".space", ".p", ".m"],
+        "correct_answer": 3
+      },
+      {
+        "question": "What is the purpose of the Bootstrap class '.alert'?",
+        "options": ["To display alert messages", "To style input fields", "To create responsive tables", "To add background colors"],
+        "correct_answer": 0
+      },
+      {
+        "question": "Which Bootstrap class is used to create a responsive grid system?",
+        "options": [".grid", ".container", ".row", ".col"],
+        "correct_answer": 2
+      },
+      {
+        "question": "What does the Bootstrap class '.jumbotron' do?",
+        "options": ["Adds a background image", "Creates a large, attention-grabbing header", "Styles form elements", "Creates a modal"],
+        "correct_answer": 1
+      },
+      {
+        "question": "Which Bootstrap component is used for responsive navigation menus?",
+        "options": [".navbar", ".menu", ".nav", ".navigation"],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the purpose of the Bootstrap class '.modal'?",
+        "options": ["To style headings", "To create a navigation bar", "To create modal dialogs", "To add spacing between elements"],
+        "correct_answer": 2
+      },
+      {
+        "question": "Which Bootstrap class is used to create responsive images?",
+        "options": [".responsive-image", ".img-responsive", ".resize-img", ".fluid-img"],
+        "correct_answer": 1
+      }
+    ], 
+    "Tailwind": [
+      {
+        "question": "What is the primary benefit of using Tailwind CSS?",
+        "options": ["Saves development time", "Increases website security", "Provides server-side scripting", "Automates database management"],
+        "correct_answer": 0
+      },
+      {
+        "question": "In Tailwind CSS, which class is used to set text color to red?",
+        "options": [".text-red", ".text-color-red", ".red-text", ".text-red-color"],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the purpose of the 'justify-between' class in Tailwind CSS?",
+        "options": ["Justifies text to the right", "Creates a centered container", "Justifies content between flex items", "Adds space between elements"],
+        "correct_answer": 2
+      },
+      {
+        "question": "Which Tailwind CSS class is used to add a border to an element?",
+        "options": [".border", ".add-border", ".element-border", ".bordered"],
+        "correct_answer": 0
+      },
+      {
+        "question": "What does the 'hover:bg-blue-500' class in Tailwind CSS do?",
+        "options": ["Changes text color to blue", "Adds a blue background on hover", "Hides elements on hover", "Increases font size on hover"],
+        "correct_answer": 1
+      },
+      {
+        "question": "In Tailwind CSS, what does the 'flex' class do?",
+        "options": ["Adds a flexbox layout", "Increases element padding", "Changes text alignment", "Decreases font size"],
+        "correct_answer": 0
+      },
+      {
+        "question": "Which Tailwind CSS class is used to hide an element from screen readers?",
+        "options": [".hidden", ".not-visible", ".sr-only", ".screen-reader"],
+        "correct_answer": 2
+      },
+      {
+        "question": "What does the 'rounded-full' class in Tailwind CSS do?",
+        "options": ["Creates a circular image", "Rounds the border of an element", "Sets font style to italic", "Adds a shadow effect"],
+        "correct_answer": 0
+      },
+      {
+        "question": "Which class is used for creating responsive padding in Tailwind CSS?",
+        "options": [".padding", ".space", ".p", ".m"],
+        "correct_answer": 1
+      },
+      {
+        "question": "In Tailwind CSS, what is the purpose of the 'bg-gradient' class?",
+        "options": ["Adds a gradient background", "Changes text color", "Sets font weight", "Creates a border gradient"],
+        "correct_answer": 0
+      },
+      {
+        "question": "Which Tailwind CSS class is used for text alignment to the right?",
+        "options": [".text-left", ".text-right", ".text-center", ".text-justify"],
+        "correct_answer": 1
+      },
+      {
+        "question": "What is the purpose of the 'cursor-pointer' class in Tailwind CSS?",
+        "options": ["Adds a pointer icon", "Changes text color on hover", "Changes cursor style to a pointer", "Adds rounded corners"],
+        "correct_answer": 2
+      }
+    ],
+    "jQuery": [
+      {
+        "question": "What is jQuery primarily used for?",
+        "options": ["Styling web pages", "Creating web pages", "Adding interactivity to web pages", "Structuring web pages"],
+        "correct_answer": 2
+      },
+      {
+        "question": "Which keyword is used to select elements in jQuery?",
+        "options": ["choose", "select", "$", "element"],
+        "correct_answer": 2
+      },
+      {
+        "question": "What does the 'DOM' stand for in jQuery?",
+        "options": ["Document Object Model", "Data Object Model", "Dynamic Object Model", "Document Order Model"],
+        "correct_answer": 0
+      },
+      {
+        "question": "How do you write a single-line comment in jQuery?",
+        "options": ["/* This is a comment */", "// This is a comment", "'' This is a comment", "## This is a comment"],
+        "correct_answer": 1
+      },
+      {
+        "question": "What is the purpose of the 'if' statement in jQuery?",
+        "options": ["To repeat a block of code", "To define a function", "To conditionally execute code", "To create a loop"],
+        "correct_answer": 2
+      },
+      {
+        "question": "Which operator is used to compare two values for equality in jQuery?",
+        "options": ["===", "==", "=", "!="],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the purpose of the 'function' keyword in jQuery?",
+        "options": ["To declare a variable", "To create a loop", "To define a function", "To style elements"],
+        "correct_answer": 2
+      },
+      {
+        "question": "Which method is used to add an element to the end of an array in jQuery?",
+        "options": ["push()", "pop()", "add()", "append()"],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the result of '5 + '5' in jQuery?",
+        "options": ["10", "55", "Error", "55.0"],
+        "correct_answer": 1
+      },
+      {
+        "question": "What does the 'setTimeout' function do in jQuery?",
+        "options": ["Adds a timer to the webpage", "Sets the font size of an element", "Delays the execution of a function", "Creates an alert message"],
+        "correct_answer": 2
+      },
+      {
+        "question": "Which jQuery method is used to change the content of an HTML element?",
+        "options": ["alter()", "change()", "innerHTML", "replace()"],
+        "correct_answer": 2
+      },
+      {
+        "question": "What is the purpose of the 'return' statement in jQuery?",
+        "options": ["To exit a loop", "To add a comment", "To define a function", "To specify the value to be returned from a function"],
+        "correct_answer": 3
+      }
+    ]
+}

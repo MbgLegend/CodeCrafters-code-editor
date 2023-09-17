@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCrafters</title>
+    <script src="https://kit.fontawesome.com/f921ec9255.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <script defer type="module" src="../script.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <a href="../index.html" class="logo"><i class="fa-solid fa-code"></i> CodeCrafters</a>
+        <ul>
+            <li>
+                <a href="../index.html" class="link">home</a>
+            </li>
+            <li>
+                <a href="about.html" class="link">about</a>
+            </li>
+            <li>
+                <a href="quiz.html" class="link active">quiz</a>
+            </li>
+            <li>
+                <a href="documentation.html" class="link">documentation</a>
+            </li>
+            <li>
+                <a href="editor.html" class="btn">Start coding</a>
+            </li>
+            <i class="fa-solid fa-x" id="close"></i>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu"></i>
+    </nav>
+
+    <section id="quiz">
+        <h1>Front-end development quizzes</h1>
+        <div class="container">
+            <div class="box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png" alt="HTML">
+                <div class="text">
+                    <h1>HTML quiz</h1>
+                    <p>The HTML quiz section is an interactive component within a web page that tests users' knowledge of HTML (Hypertext Markup Language). It typically contains multiple-choice questions or fill-in-the-blank exercises to assess their understanding of HTML elements and syntax. This section provides a valuable opportunity for learners to practice and enhance their HTML coding abilities.</p>
+                    <button class="btn" data-quizType="HTML">Start quiz</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS">
+                <div class="text">
+                    <h1>CSS quiz</h1>
+                    <p>The CSS quiz section is an interactive component on a webpage designed to evaluate users' knowledge of CSS (Cascading Style Sheets). It often includes multiple-choice questions or fill-in-the-blank exercises to gauge their grasp of CSS styling and selectors. This section serves as a valuable resource for users seeking to improve their CSS skills and refine their web design capabilities.</p>
+                    <button class="btn" data-quizType="CSS">Start quiz</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://www.computerhope.com/jargon/j/javascript.png" alt="javaScript">
+                <div class="text">
+                    <h1>JavaScript quiz</h1>
+                    <p>The JavaScript quiz section is a website feature that assesses users' understanding of JavaScript, offering multiple-choice questions and coding exercises. It assists learners in honing their JavaScript skills and problem-solving abilities, making it a valuable resource for web development enthusiasts.</p>
+                    <button class="btn" data-quizType="JavaScript">Start quiz</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png" alt="Bootstrap">
+                <div class="text">
+                    <h1>Bootstrap quiz</h1>
+                    <p>The Bootstrap quiz section is a website feature that assesses users' knowledge of Bootstrap, offering multiple-choice questions and coding exercises. It's a valuable resource for web designers and developers aiming to improve their skills in creating responsive and user-friendly web interfaces.</p>
+                    <button class="btn" data-quizType="Bootstrap">Start quiz</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://yt3.googleusercontent.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s900-c-k-c0x00ffffff-no-rj" alt="Tailwind">
+                <div class="text">
+                    <h1>Tailwind CSS quiz</h1>
+                    <p>TThe Tailwind CSS quiz section is a website feature designed to evaluate users' proficiency in Tailwind CSS, providing a range of multiple-choice questions and hands-on coding challenges. This valuable resource serves as an effective tool for individuals looking to enhance their knowledge of Tailwind CSS and improve their web design and development skills.</p>
+                    <button class="btn" data-quizType="Tailwind">Start quiz</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://avatars.githubusercontent.com/u/70142?s=280&v=4" alt="jQuery">
+                <div class="text">
+                    <h1>jQuery quiz</h1>
+                    <p>The jQuery quiz section is a website feature designed to evaluate users' understanding of jQuery, offering multiple-choice questions and coding exercises. It's a valuable resource for web developers looking to enhance their skills in JavaScript manipulation and interactivity on web pages.</p>
+                    <button class="btn" data-quizType="jQuery">Start quiz</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news-letter">
+        <div class="flex">
+            <div class="text">
+                <h1>Newsletter</h1>
+                <p>Subscribe to our newsletter for daily news!</p>
+            </div>
+            <div class="input">
+                <input type="email" id="email" placeholder="Enter email address">
+                <button id="subscribe">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz-show">
+        <div class="quiz-container">
+        </div>
+    </section>
+
+    <footer>
+        <a href="../index.html" class="logo"><i class="fa-solid fa-code"></i> CodeCrafters</a>
+
+        <div class="grid">
+            <div>
+                <h1>Solutions</h1>
+                <ul>
+                    <li>
+                        Control
+                    </li>
+                    <li>
+                        Scalability & Effiecency
+                    </li>
+                    <li>
+                        Supported by Experts
+                    </li>
+                    <li>
+                        Performance & Security
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h1>Product</h1>
+                <ul>
+                    <li>
+                        Integerated Platform
+                    </li>
+                    <li>
+                        Payroll
+                    </li>
+                    <li>
+                        Human Respirces
+                    </li>
+                    <li>
+                        Workforce Managment
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h1>Resources</h1>
+                <ul>
+                    <li>
+                        Case Studies
+                    </li>
+                    <li>
+                        Blog
+                    </li>
+                    <li>
+                        Documentation
+                    </li>
+                    <li>
+                        I'm a developer
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h1>Company</h1>
+                <ul>
+                    <li>
+                        <a href="">home</a>
+                    </li>
+                    <li>
+                        <a href="">about</a>
+                    </li>
+                    <li>
+                        <a href="">quiz</a>
+                    </li>
+                    <li>
+                        <a href="">Coding</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="box">
+                    <div>
+                        <p>555-123-4567</p>
+                        <p class="email">Support@CodeCrafters.co</p>
+                    </div>
+                    <div>
+                        <p>New York City, USA</p>
+                        <p>40.7128° N</p>
+                    </div>
+                </div>
+                <div class="icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="credits">
+        <div class="flex">
+            <p>Copyright ©️ 2023 CodeCrafters</p>
+            <ul>
+                <li>
+                    Privacy Policy
+                </li>
+                <li>
+                    Terms of Use
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

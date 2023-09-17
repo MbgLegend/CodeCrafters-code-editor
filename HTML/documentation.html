@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCrafters</title>
+    <script src="https://kit.fontawesome.com/f921ec9255.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <script defer type="module" src="../script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/monokai-sublime.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <a href="../index.html" class="logo"><i class="fa-solid fa-code"></i> CodeCrafters</a>
+        <ul>
+            <li>
+                <a href="../index.html" class="link">home</a>
+            </li>
+            <li>
+                <a href="about.html" class="link">about</a>
+            </li>
+            <li>
+                <a href="quiz.html" class="link">quiz</a>
+            </li>
+            <li>
+                <a href="documentation.html" class="link active">documentation</a>
+            </li>
+            <li>
+                <a href="editor.html" class="btn">Start coding</a>
+            </li>
+            <i class="fa-solid fa-x" id="close"></i>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu"></i>
+    </nav>
+
+    <section id="docs">
+        <h1>Welcome to our documentation!</h1>
+        <p>We offer a variety of explanations for different web development technologies!</p>
+
+        <div class="section">
+            <h2>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png" alt="HTML">
+                HTML
+            </h2>
+            <span>
+                HTML (HyperText Markup Language) is used to structure the content of a web page. Here are 12 different HTML examples and explanations:
+            </span>
+        
+            <h3>1. Heading:</h3>
+            <pre><code>
+        &lt;h1>This is a Heading 1&lt;/h1>
+            </code></pre>
+            <p>This code creates a top-level heading.</p>
+        
+            <h3>2. Paragraph:</h3>
+            <pre><code>
+        &lt;p>This is a paragraph.&lt;/p>
+            </code></pre>
+            <p>This code defines a paragraph of text.</p>
+        
+            <h3>3. Link:</h3>
+            <pre><code>
+        &lt;a href="https://www.example.com">Visit Example.com&lt;/a>
+            </code></pre>
+            <p>This code creates a hyperlink to Example.com.</p>
+        
+            <h3>4. Image:</h3>
+            <pre><code>
+        &lt;img src="image.jpg" alt="Image Description">
+            </code></pre>
+            <p>This code inserts an image with an alt text.</p>
+        
+            <h3>5. List:</h3>
+            <pre><code>
+        &lt;ul>
+            &lt;li>Item 1&lt;/li>
+            &lt;li>Item 2&lt;/li>
+        &lt;/ul>
+            </code></pre>
+            <p>This code creates an unordered list with items.</p>
+        
+            <h3>6. Form:</h3>
+            <pre><code>
+        &lt;form>
+            &lt;label for="name">Name:&lt;/label>
+            &lt;input type="text" id="name" name="name">
+            &lt;input type="submit" value="Submit">
+        &lt;/form>
+            </code></pre>
+            <p>This code creates a simple form with an input field and a submit button.</p>
+
+            <h3>7. Ordered List:</h3>
+            <pre><code>
+        &lt;ol>
+            &lt;li>Item 1&lt;/li>
+            &lt;li>Item 2&lt;/li>
+        &lt;/ol>
+            </code></pre>
+            <p>This code creates an ordered list with items.</p>
+        
+            <h3>8. Anchor Target:</h3>
+            <pre><code>
+        &lt;a href="#section2">Go to Section 2&lt;/a>
+            </code></pre>
+            <p>This code creates a link that navigates to Section 2 on the same page.</p>
+        
+            <h3>9. HTML Comment:</h3>
+            <pre><code>
+        &lt;!-- This is an HTML comment -->
+            </code></pre>
+            <p>This code adds a comment in the HTML code.</p>
+        
+            <h3>10. Input Checkbox:</h3>
+            <pre><code>
+        &lt;input type="checkbox" id="myCheckbox" name="myCheckbox" value="Yes">
+            </code></pre>
+            <p>This code creates a checkbox input field.</p>
+        
+            <h3>11. HTML Entity:</h3>
+            <pre><code>
+        &lt;p>&amp;copy; 2023 My Company&lt;/p>
+            </code></pre>
+            <p>This code uses an HTML entity to display the copyright symbol.</p>
+        
+            <h3>12. Meta Tags:</h3>
+            <pre><code>
+        &lt;meta name="keywords" content="HTML, CSS, JavaScript">
+            </code></pre>
+            <p>This code defines meta tags for keywords in the document.</p>
+            <a href="quiz.html" class="btn">Start quiz</a>
+        </div>
+
+        <div class="section">
+            <h2>
+                <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS">
+                CSS
+            </h2>
+            <span>
+                CSS (Cascading Style Sheets) is used to style and format HTML elements. Here are 12 different CSS examples and explanations:
+            </span>
+        
+            <h3>1. Font Color:</h3>
+            <pre><code>
+        h2 {
+            color: green;
+        }
+            </code></pre>
+            <p>This CSS rule changes the color of all &lt;h2&gt; elements to green.</p>
+        
+            <h3>2. Background Color:</h3>
+            <pre><code>
+        body {
+            background-color: #ccc;
+        }
+            </code></pre>
+            <p>This CSS rule sets the background color of the body to light gray.</p>
+        
+            <h3>3. Text Alignment:</h3>
+            <pre><code>
+        p {
+            text-align: justify;
+        }
+            </code></pre>
+            <p>This CSS rule justifies the text in all &lt;p&gt; elements.</p>
+        
+            <h3>4. Border:</h3>
+            <pre><code>
+        div {
+            border: 2px dashed #f00;
+        }
+            </code></pre>
+            <p>This CSS rule adds a 2px red dashed border around all &lt;div&gt; elements.</p>
+        
+            <h3>5. Font Size:</h3>
+            <pre><code>
+        p {
+            font-size: 16px;
+        }
+            </code></pre>
+            <p>This CSS rule sets the font size of all &lt;p&gt; elements to 16 pixels.</p>
+        
+            <h3>6. Margin and Padding:</h3>
+            <pre><code>
+        .container {
+            margin: 10px;
+            padding: 20px;
+        }
+            </code></pre>
+            <p>This CSS rule sets margins to 10px and padding to 20px for elements with class "container."</p>
+
+            <h3>7. Text Decoration:</h3>
+            <pre><code>
+        a {
+            text-decoration: underline;
+        }
+            </code></pre>
+            <p>This CSS rule adds an underline to all links.</p>
+        
+            <h3>8. Box Shadow:</h3>
+            <pre><code>
+        div {
+            box-shadow: 3px 3px 5px #888888;
+        }
+            </code></pre>
+            <p>This CSS rule adds a box shadow to the div element.</p>
+        
+            <h3>9. Flexbox Layout:</h3>
+            <pre><code>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            </code></pre>
+            <p>This CSS rule creates a centered flexbox layout.</p>
+        
+            <h3>10. CSS Transition:</h3>
+            <pre><code>
+        button {
+            transition: background-color 0.3s ease;
+        }
+            </code></pre>
+            <p>This CSS rule adds a smooth transition effect to the button background color.</p>
+        
+            <h3>11. CSS Animation:</h3>
+            <pre><code>
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+        
+        .element {
+            animation: slideIn 1s ease;
+        }
+            </code></pre>
+            <p>This CSS code defines a slide-in animation for an element.</p>
+        
+            <h3>12. Media Queries:</h3>
+            <pre><code>
+        @media (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+        }
+            </code></pre>
+            <p>This CSS code sets a smaller font size for screens with a width of 768 pixels or less.</p>
+            <a href="quiz.html" class="btn">Start quiz</a>
+        </div>
+        
+        <div class="section">
+            <h2>
+                <img src="https://www.computerhope.com/jargon/j/javascript.png" alt="javaScript">
+                JavaScript
+            </h2>
+            <span>
+                JavaScript is used to add interactivity to web pages. Here are 12 different JavaScript examples and explanations:
+            </span>
+        
+            <h3>1. Alert Box:</h3>
+            <pre><code>
+        alert("Hello, JavaScript!");
+            </code></pre>
+            <p>This code displays an alert box with the message "Hello, JavaScript!"</p>
+        
+            <h3>2. Console Log:</h3>
+            <pre><code>
+        console.log("Logged message");
+            </code></pre>
+            <p>This code logs a message to the browser console.</p>
+        
+            <h3>3. Variables:</h3>
+            <pre><code>
+        var age = 25;
+            </code></pre>
+            <p>This code declares a variable named "age" and assigns it the value 25.</p>
+        
+            <h3>4. Function:</h3>
+            <pre><code>
+        function multiply(a, b) {
+            return a * b;
+        }
+            </code></pre>
+            <p>This code defines a function that multiplies two numbers.</p>
+        
+            <h3>5. Event Listener:</h3>
+            <pre><code>
+        document.querySelector('button').addEventListener('click', function() {
+            alert('Button Clicked!');
+        });
+            </code></pre>
+            <p>This code adds a click event listener to a button element that displays an alert when clicked.</p>
+        
+            <h3>6. Conditional Statement:</h3>
+            <pre><code>
+        var temperature = 30;
+        if (temperature > 20) {
+            console.log("It's a warm day.");
+        } else {
+            console.log("It's a cold day.");
+        }
+            </code></pre>
+            <p>This code uses an if-else statement to determine the weather based on the temperature.</p>
+
+            <h3>7. DOM Manipulation:</h3>
+            <pre><code>
+        document.getElementById('myElement').innerHTML = 'New content';
+            </code></pre>
+            <p>This code updates the content of an HTML element with the ID 'myElement'.</p>
+        
+            <h3>8. Local Storage:</h3>
+            <pre><code>
+        localStorage.setItem('username', 'John');
+        var username = localStorage.getItem('username');
+            </code></pre>
+            <p>This code stores and retrieves data using the browser's local storage.</p>
+        
+            <h3>9. Array Methods:</h3>
+            <pre><code>
+        var fruits = ['apple', 'banana', 'cherry'];
+        fruits.push('orange');
+            </code></pre>
+            <p>This code adds an element to an array using the push() method.</p>
+        
+            <h3>10. JSON Parsing:</h3>
+            <pre><code>
+        var jsonString = '{"name": "Alice", "age": 30}';
+        var person = JSON.parse(jsonString);
+            </code></pre>
+            <p>This code parses a JSON string into a JavaScript object.</p>
+        
+            <h3>11. Fetch API:</h3>
+            <pre><code>
+        fetch('https://api.example.com/data')
+            .then(response => response.json())
+            .then(data => console.log(data));
+            </code></pre>
+            <p>This code fetches data from an API using the Fetch API.</p>
+        
+            <h3>12. Error Handling:</h3>
+            <pre><code>
+        try {
+            // Code that may throw an error
+        } catch (error) {
+            console.error('An error occurred:', error);
+        }
+            </code></pre>
+            <p>This code demonstrates error handling using try and catch.</p>
+            <a href="quiz.html" class="btn">Start quiz</a>
+        </div>
+        
+    </section>
+
+    <section id="news-letter">
+        <div class="flex">
+            <div class="text">
+                <h1>Newsletter</h1>
+                <p>Subscribe to our newsletter for daily news!</p>
+            </div>
+            <div class="input">
+                <input type="email" id="email" placeholder="Enter email address">
+                <button id="subscribe">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="../index.html" class="logo"><i class="fa-solid fa-code"></i> CodeCrafters</a>
+
+        <div class="grid">
+            <div>
+                <h1>Solutions</h1>
+                <ul>
+                    <li>
+                        Control
+                    </li>
+                    <li>
+                        Scalability & Effiecency
+                    </li>
+                    <li>
+                        Supported by Experts
+                    </li>
+                    <li>
+                        Performance & Security
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h1>Product</h1>
+                <ul>
+                    <li>
+                        Integerated Platform
+                    </li>
+                    <li>
+                        Payroll
+                    </li>
+                    <li>
+                        Human Respirces
+                    </li>
+                    <li>
+                        Workforce Managment
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h1>Resources</h1>
+                <ul>
+                    <li>
+                        Case Studies
+                    </li>
+                    <li>
+                        Blog
+                    </li>
+                    <li>
+                        Documentation
+                    </li>
+                    <li>
+                        I'm a developer
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h1>Company</h1>
+                <ul>
+                    <li>
+                        <a href="">home</a>
+                    </li>
+                    <li>
+                        <a href="">about</a>
+                    </li>
+                    <li>
+                        <a href="">quiz</a>
+                    </li>
+                    <li>
+                        <a href="">Coding</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="box">
+                    <div>
+                        <p>555-123-4567</p>
+                        <p class="email">Support@CodeCrafters.co</p>
+                    </div>
+                    <div>
+                        <p>New York City, USA</p>
+                        <p>40.7128° N</p>
+                    </div>
+                </div>
+                <div class="icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="credits">
+        <div class="flex">
+            <p>Copyright ©️ 2023 CodeCrafters</p>
+            <ul>
+                <li>
+                    Privacy Policy
+                </li>
+                <li>
+                    Terms of Use
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          hljs.configure({languages: ['html', 'css', 'javascript']})
+          hljs.initHighlightingOnLoad()
+        })
+      </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+</body>
+</html>

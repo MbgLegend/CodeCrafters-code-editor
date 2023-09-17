@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCrafters</title>
+    <script src="https://kit.fontawesome.com/f921ec9255.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/codemirror.min.css">
+
+    <link rel="stylesheet" href="../style.css">
+    <script defer type="module" src="../script.js"></script>
+    <script defer type="module" src="../javaScript/editor.js"></script>
+    
+</head>
+<body>
+    <nav id="navbar">
+        <a href="../index.html" class="logo"><i class="fa-solid fa-code"></i> CodeCrafters</a>
+        <ul>
+            <li>
+                <a href="../index.html" class="link">home</a>
+            </li>
+            <li>
+                <a href="about.html" class="link">about</a>
+            </li>
+            <li>
+                <a href="quiz.html" class="link">quiz</a>
+            </li>
+            <li>
+                <a href="documentation.html" class="link">documentation</a>
+            </li>
+            <li>
+                <a href="editor.html" class="btn">Start coding</a>
+            </li>
+            <i class="fa-solid fa-x" id="close"></i>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu"></i>
+    </nav>
+    
+    <section id="editor">
+        <div class="grid">
+            <div class="code">
+                <div id="HTML">
+                    <header>
+                        <img src="https://icon-library.com/images/html-icon-png/html-icon-png-4.jpg" alt="HTML"> 
+                        <p>HTML</p>
+                    </header>
+                    <textarea id="HTML-code"></textarea>
+                </div>
+
+                <div id="CSS">
+                    <header>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="CSS"> 
+                        <p>CSS</p>
+                    </header>
+                    <textarea id="CSS-code"></textarea>
+                </div>
+
+                <div id="JavaScript">
+                    <header>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="JavaScript"> 
+                        <p>JavaScript</p>
+                    </header>
+                    <textarea id="JavaScript-code"></textarea>
+                </div>
+            </div>
+            <iframe id="output">
+            </iframe>
+        </div>
+    </section>
+
+    <section id="news-letter">
+        <div class="flex">
+            <div class="text">
+                <h1>Newsletter</h1>
+                <p>Subscribe to our newsletter for daily news!</p>
+            </div>
+            <div class="input">
+                <input type="email" id="email" placeholder="Enter email address">
+                <button id="subscribe">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="../index.html" class="logo"><i class="fa-solid fa-code"></i> CodeCrafters</a>
+
+        <div class="grid">
+            <div>
+                <h1>Solutions</h1>
+                <ul>
+                    <li>
+                        Control
+                    </li>
+                    <li>
+                        Scalability & Effiecency
+                    </li>
+                    <li>
+                        Supported by Experts
+                    </li>
+                    <li>
+                        Performance & Security
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h1>Product</h1>
+                <ul>
+                    <li>
+                        Integerated Platform
+                    </li>
+                    <li>
+                        Payroll
+                    </li>
+                    <li>
+                        Human Respirces
+                    </li>
+                    <li>
+                        Workforce Managment
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h1>Resources</h1>
+                <ul>
+                    <li>
+                        Case Studies
+                    </li>
+                    <li>
+                        Blog
+                    </li>
+                    <li>
+                        Documentation
+                    </li>
+                    <li>
+                        I'm a developer
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h1>Company</h1>
+                <ul>
+                    <li>
+                        <a href="">home</a>
+                    </li>
+                    <li>
+                        <a href="">about</a>
+                    </li>
+                    <li>
+                        <a href="">quiz</a>
+                    </li>
+                    <li>
+                        <a href="">Coding</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="box">
+                    <div>
+                        <p>555-123-4567</p>
+                        <p class="email">Support@CodeCrafters.co</p>
+                    </div>
+                    <div>
+                        <p>New York City, USA</p>
+                        <p>40.7128° N</p>
+                    </div>
+                </div>
+                <div class="icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="credits">
+        <div class="flex">
+            <p>Copyright ©️ 2023 CodeCrafters</p>
+            <ul>
+                <li>
+                    Privacy Policy
+                </li>
+                <li>
+                    Terms of Use
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/mode/htmlmixed/htmlmixed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/mode/css/css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/mode/javascript/javascript.min.js"></script>
+</body>
+</html>
