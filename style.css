@@ -963,8 +963,10 @@ pre {
 }
 
 @media (max-width: 550px) {
-    #quiz-show  {
-        padding: 20px;
+    #quiz-show {
+        bottom: auto;
+        padding: 2rem 0.25rem;
+        height: 100vh;
     }
     #quiz-show .quiz-container {
         width: 100%;
