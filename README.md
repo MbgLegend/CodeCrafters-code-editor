@@ -1,14 +1,10 @@
-This project was done by Mohamad Ghalayini.
+# CodeCraftes code editor
 
-CodeCrafters, a code editor which is simple and easy to use. 
-Contains 5+ diffrent quizzes about HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, and jQuery.
-fully responsive and easy to use.
+Code Crafters is your go-to code editor, featuring a clean and user-friendly interface. With a simple UI/UX, it's easy to use for all skill levels. It not only offers a powerful code editor but also provides comprehensive documentation and over 5 quiz sections for an enriched learning experience.
 
-Contains a documentation whcih covers basic HTML, CSS, and Javascript concepts. 
-each section is explained, a simple code is also given.
+Hosted version: [CodeCrafters](https://mbglegend.github.io/CodeCrafters-code-editor/index.html)
 
-feel free to use my Code ( give credits at the bottom of the page or in the page description )
+Developed by: [Mohamad Ghalayini)[https://github.com/MbgLegend]
 
-Thank you!
-
-Hosted version:  https://mbglegend.github.io/CodeCrafters-code-editor/index.html
+# Previw website
+![CodeCrafters-code-editor]((https://github.com/MbgLegend/CodeCrafters-code-editor/assets/95979029/a0d569ef-f2ab-4ca4-8ea2-c77fbcca1354)
