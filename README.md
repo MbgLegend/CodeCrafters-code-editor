@@ -7,4 +7,4 @@ Hosted version: [CodeCrafters](https://mbglegend.github.io/CodeCrafters-code-edi
 Developed by: [Mohamad Ghalayini)[https://github.com/MbgLegend]
 
 # Previw website
-![CodeCrafters-code-editor]((https://github.com/MbgLegend/CodeCrafters-code-editor/assets/95979029/a0d569ef-f2ab-4ca4-8ea2-c77fbcca1354)
+![mbglegend github io_CodeCrafters-code-editor_index html](https://github.com/MbgLegend/CodeCrafters-code-editor/assets/95979029/a0d569ef-f2ab-4ca4-8ea2-c77fbcca1354)
